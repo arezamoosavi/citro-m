@@ -1,0 +1,10 @@
+.*
+!.coveragerc
+!.env
+!.pylintrc
+
+*.log
+__pycache__/
+.venv/
+.vscode
+*.md
