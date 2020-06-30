@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  jupyter:
+    build:
+      context: .
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
+    # dns:
+    # - 111111111
+    restart: unless-stopped
